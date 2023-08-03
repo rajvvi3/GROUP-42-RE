@@ -1,0 +1,36 @@
+<html>
+
+<head>
+  <br>
+ 
+
+    
+
+<h3>WELCOME TO EQUILIBRIO! </h3>
+    <title>WELCOME PAGE</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+  
+<body>
+
+    <div class="container">
+
+<style>
+
+h3 {
+  color: IndianRed;
+  text-align: center;
+}
+      </style>
+  
+  <p style="text-align:center;">An app for organizing,
+managing, and supporting one's personal life, which aids with monetary and mental well-being. 
+<br>
+In summary, what was once difficult and tedious is now easy and light while increasing your personal
+well-being.
+</p>
+  
+  </body>
+  </html>
