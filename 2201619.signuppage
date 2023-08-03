@@ -14,7 +14,7 @@
   
   <div class="signuphead">
 
-  <p style="text-align:center;">Already a member? <a href="#" onclick="loginForm()">Login</a></p>
+  <p style="text-align:center;">Already a member? <a href="file:///C:/Users/rajvi/Desktop/html.html#" onclick="loginForm()">Login</a></p>
   
   </div>
   
@@ -48,18 +48,18 @@
     
   </style>
      
-  <form id="signupForm" onsubmit="return false;" autocomplete="on">
+  <form id="signupForm" onsubmit="return false;" autocomplete="on" action="file:///C:/Users/rajvi/Desktop/html.html#">
     
 <br>
     
     <label for="firstname"> First name: </label>
-    <input type="text" id:="firstname" name="firstname">
+    <input type="text" id:="firstname" name="firstname" required>
     
 <br>
 <br>
     
      <label for="lastname"> Last name: </label>
-    <input type="text" id:="lastname" name="lastname">
+    <input type="text" id:="lastname" name="lastname" required>
     
 <br>
 <br>
@@ -78,7 +78,7 @@
     
    <label for="contact">Contact Number:</label>
         
-   <input type="number" id="contact" required>
+   <input type="text" id="contact" required>
 <br>
 <br>
   
@@ -86,8 +86,15 @@
     
     <div class="submit">
       
+ <form action="file:///C:/Users/rajvi/Desktop/html.html#" target="_self" method="get">     
+                                           
+ <a href="/C:/Users/rajvi/Desktop/html.html#">
+
 <input type="submit" value="Sign up" onclick="signup()">
       
+</a>
+</form>
+
     </div>
 </div>
 
@@ -96,6 +103,5 @@
 </body>
 
 </html>
-                    
-                                      
+                                          
                                       
