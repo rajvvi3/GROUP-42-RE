@@ -1,0 +1,166 @@
+<html>
+
+<head>
+  <br>
+ 
+
+    
+
+<h3>WELCOME TO EQUILIBRIO! </h3>
+    <title>LOGIN PAGE</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+<style>
+
+h3 {
+  color: IndianRed;
+  text-align: center;
+}
+  
+h2 {
+  color: slateblue;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  border: 1px solid;
+  padding: 60px;
+  margin: 100px;
+
+}
+
+</style>
+
+        <h2>Login</h2>
+<br>
+
+        <form id="loginForm" onsubmit="return false;" autocomplete="on">
+
+            <label for="loginUsername">Username:</label>
+        
+            <input type="text" id="loginUsername" required>
+<br>
+<br>
+            <label for="loginPassword">Password:</label>
+
+            <input type="password" id="loginPassword" required>
+<br>
+<br>
+    <div class="but-container">
+
+<style>
+
+.but-container {
+  display: flex;
+  justify-content: center;
+}
+
+</style>
+
+            <input type="submit" value="Login" onclick="login()">
+
+    </div>
+          <br>
+          
+          <div class="but-container">
+
+          <input type="checkbox" id="savedata" name="staylogged value="credentials">
+
+            <label for="staylogged"> Keep me logged in </label>
+
+    </div>
+          
+  <br>
+  <br>
+        <div class="but-container">     
+                         
+        <form action="signingup.html" target="_self" method="get">     
+                                           
+ <a href="//C:/Users/rajvi/Desktop/Coding%20Essentials/signingup.html">
+                                                            
+<button>Sign Up</button></a>
+                                                                      
+</div>
+          
+        </form>
+      
+<br>
+      <div class="but-container">
+
+       <p><a href="#" onclick="showForgotPassword()">Forgot Password?</a></p>
+
+        <form id="forgotPasswordForm" style="display: none;">
+ <br>
+ <br>      
+            <label for="forgotPasswordEmail">Email:</label>
+
+            <input type="email" id="forgotPasswordEmail" required><br>
+
+            <input type="submit" value="Reset Password" onclick="resetPassword()">
+
+       </div>
+
+        </form>
+
+       </div>
+
+    <script>
+
+        function login() 
+{
+            // Get login form data and perform login logic
+            // Replace this with your actual login logic
+            var username = document.getElementById("loginUsername").value;
+            var password = document.getElementById("loginPassword").value;
+            console.log("Login clicked. Username: " + username + ", Password: " + password); 
+}
+
+        
+        function showForgotPassword() 
+{
+            document.getElementById("forgotPasswordForm").style.display = "block";
+}
+
+        function resetPassword() 
+{
+                                                                                 
+            // Get forgot password form data and perform reset password logic
+            // Replace this with your actual reset password logic
+                                                                                 
+            var email = document.getElementById("forgotPasswordEmail").value;
+        
+            console.log("Reset Password clicked. Email: " + email);
+}
+                                                         
+    <script src="script.js"> </script>
+
+<div class="navigations"> 
+  
+<style>
+        .navigations 
+{
+                        text-align: center;
+}    
+            
+</style>
+
+<nav>
+    <a href="/settings/">Settings</a> | 
+    <a href="/about/">About</a> |
+    <a href="/help/">Help</a>
+</nav>
+
+</script>
+
+</body>
+
+</html>
