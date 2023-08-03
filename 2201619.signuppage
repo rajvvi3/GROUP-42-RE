@@ -47,7 +47,8 @@
     }
     
   </style>
-     
+     <form action="file:///C:/Users/rajvi/Desktop/html.html#" target="_parent" method="get">     
+
   <form id="signupForm" onsubmit="return false;" autocomplete="on" action="file:///C:/Users/rajvi/Desktop/html.html#">
     
 <br>
@@ -86,11 +87,11 @@
     
     <div class="submit">
       
- <form action="file:///C:/Users/rajvi/Desktop/html.html#" target="_self" method="get">     
+ 
                                            
  <a href="/C:/Users/rajvi/Desktop/html.html#">
 
-<input type="submit" value="Sign up" onclick="signup()">
+<input type="submit" value="Sign up" onclick="file:///C:/Users/rajvi/Desktop/html.html#">
       
 </a>
 </form>
@@ -103,5 +104,6 @@
 </body>
 
 </html>
+                    
                                           
                                       
