@@ -1,0 +1,101 @@
+<html>
+
+<head>
+  <br>
+
+  
+<h3>CREATE AN EQUILIBRIO ACCOUNT</h3>
+  
+   <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+  
+<body>
+  
+  <div class="signuphead">
+
+  <p style="text-align:center;">Already a member? <a href="#" onclick="loginForm()">Login</a></p>
+  
+  </div>
+  
+  <div class="signup">
+  
+  <style>
+ 
+   
+    h3 {
+     text-align: center;
+     color:IndianRed;
+    }
+  
+    .signuphead {
+    
+      color: dodgerblue;
+    }
+    
+    .signup {
+       border: 1px solid;
+      padding: 60px;
+      margin: 100px;
+      justify-content: center;
+    }
+    
+    .submit {
+      display:flex;
+      justify-content: center;
+      
+    }
+    
+  </style>
+     
+  <form id="signupForm" onsubmit="return false;" autocomplete="on">
+    
+<br>
+    
+    <label for="firstname"> First name: </label>
+    <input type="text" id:="firstname" name="firstname">
+    
+<br>
+<br>
+    
+     <label for="lastname"> Last name: </label>
+    <input type="text" id:="lastname" name="lastname">
+    
+<br>
+<br>
+    
+   <label for="signupUsername">Username:</label>
+        
+   <input type="text" id="signupUsername" required>
+<br>
+<br>
+    <label for="signupPassword">Password:</label>
+
+            <input type="password" id="signupPassword" required>
+    
+    <br>
+<br>
+    
+   <label for="contact">Contact Number:</label>
+        
+   <input type="number" id="contact" required>
+<br>
+<br>
+  
+    <br>
+    
+    <div class="submit">
+      
+<input type="submit" value="Sign up" onclick="signup()">
+      
+    </div>
+</div>
+
+
+
+</body>
+
+</html>
+                    
+                                      
+                                      
