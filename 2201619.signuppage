@@ -54,32 +54,33 @@
 <br>
     
     <label for="firstname"> First name: </label>
-    <input type="text" id:="firstname" name="firstname" required>
+    <input type="text" id:="firstname" name="firstname" size="20" required>
     
 <br>
 <br>
     
      <label for="lastname"> Last name: </label>
-    <input type="text" id:="lastname" name="lastname" required>
+    <input type="text" id:="lastname" name="lastname" size="20" required>
     
 <br>
 <br>
     
-   <label for="signupUsername">Username:</label>
+   <label for="signupUsername">Email:</label>
         
-   <input type="text" id="signupUsername" required>
+   <input type="email" id="email" size="20" required>
 <br>
 <br>
     <label for="signupPassword">Password:</label>
 
-            <input type="password" id="signupPassword" required>
+            <input type="password" id="signupPassword" size="20" required>
     
     <br>
 <br>
     
-   <label for="contact">Contact Number:</label>
+   <label for="phone">Contact Number:</label>
         
-   <input type="text" id="contact" required>
+   <input type="tel" id="phone" name="phone"  pattern="[0-9]{2}-[0-9]{4}-[0-9]{6}" size="20" required><br><br>
+  
 <br>
 <br>
   
@@ -104,6 +105,4 @@
 </body>
 
 </html>
-                    
-                                          
-                                      
+                                            
