@@ -1,4 +1,6 @@
  
+
+ 
    <html>
    <head>
      <title>Forgot password</title>
@@ -19,12 +21,11 @@
        
      </style>
      
-    
      <form action="reset_password.php" method="POST">
        
        <label for="email">Email:</label>
         <div class="respass">
-       <input type="email" name="email" required><br>
+       <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" autofocus required><br>
 <br>       
        <input type="submit" value="Reset Password">
            </div>
